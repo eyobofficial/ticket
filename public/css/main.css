@@ -1,0 +1,1029 @@
+/***************************************************
+* Main Style: Photo Gallery Website
+* Author: Eyob Tariku
+* Company Name: Zigzag Studio
+* Written Date: 2016 April 01
+* Version: 1.0
+* Last Updated: -
+* Description: 
+******************/
+/**** Form validation error *******/
+
+label.error:before {
+	content: "* ";
+}
+
+label.error {
+    color: #d43f3a !important;
+    font-style: italic;
+}
+
+
+.em {
+	font-style: italic;
+}
+
+.sm {
+	font-size: 12px;
+}
+
+.xs {
+	font-size: 10px;
+}
+
+.borderless tr td {
+	border: none !important;
+	padding: 0.8em 0 !important;
+}
+
+
+.notSeen {
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+/** clearfix ***/
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.message {
+	color: deeppink;
+	font-size: 1.2em;
+	font-family: Courier, monospace;
+	font-weight: bold;
+	line-height: 2;
+}
+
+
+.shade {
+	color: #888 !important;
+}
+
+.shadeLink {
+	color: #888 !important;
+}
+
+.shadeLink:hover {
+	color: #333 !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.errorMsg {
+	font-weight: bold;
+	color: #555;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #d9534f;
+}
+
+.errorMsg li {
+	list-style-type: square;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+span.fa-external-link {
+	font-size: 10px;
+}
+
+.subheadings {
+	margin-bottom: 20px;
+}
+
+.subheadings.text-right {
+	margin-right: 5px;
+}
+
+/* #pageNav ul.nav {
+	margin-left: 280px;
+} */
+
+hr {
+	border-color: #ccc;
+}
+
+body {
+	position: relative;
+	background: #efefef;
+}
+
+#main {
+	min-height: 500px !important;
+}
+
+.mainContainer {
+	min-height: 280px;
+}
+
+h1#pageTitle > a {
+	color: #f0ad4e !important;
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 0.9em;
+}
+
+.navbar-default {
+	width: 100%;
+	min-height: 80px;
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	background: #fff;
+	z-index: 999;
+}
+
+
+#primaryLinks {
+	position: absolute;
+	left: 34%;
+	overflow: auto;
+}
+
+.shortcuts {
+	margin-top: 0 !important;
+	padding: 0 !important;
+}
+
+.shortcuts li.dropdown {
+	margin-top: 25px;
+	font-size: 16px;
+}
+
+.shortcuts li.dropdown button {
+	border: none;
+	background: transparent;
+}
+
+.shortcuts li.dropdown button span.glyphicon {
+	color: #555;
+}
+
+.shortcuts li.dropdown a {
+	font-weight: normal;
+}
+
+.shortcuts li.dropdown li.dropdown-header {
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.shortcuts .hiddenLabel {
+	display: none;
+}
+
+ul.navbar-nav {
+	padding-top: 10px;
+}
+
+ul.navbar-nav li a {
+	font-weight: bold;
+}
+
+ul.navbar-nav li.active a {
+	background: transparent !important;
+	border-bottom: 2px solid orange;
+	color: orange !important;
+}
+
+ul.navbar-nav li.active {
+	background: transparent;
+}
+
+.navbar-brand {
+	color: #f0ad4e !important;
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-top: 1.4em;
+}
+
+.homePage .navbar-brand, .homePage .shortcuts {
+	display: none;
+}
+
+#topNav a {
+	color: #888 !important;
+	font-size: 12px;
+}
+
+#misc {
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+#logoText h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	line-height: 0.9em;
+}
+
+#pageHeader h2.small {
+	font-size: 14px;
+	color: #888;
+	text-decoration: overline;
+	margin-top: 0 !important;	
+	padding-top: 0;
+}
+
+#pageHeader div.row {
+	margin-bottom: 0 !important;
+}
+
+.pageBanner {
+	padding: 150px 0 160px;
+	background-image: url('../images/banner.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 4px solid #ccc;
+}
+
+.pageBanner input[type="search"] {
+	height: 46px;
+	font-size: 16px;
+}
+
+.pageBanner span.input-group-btn .btn {
+	padding: 12px 16px;
+}
+
+.eventTypes {
+	color: #777;
+	line-height: 2em;
+	border-bottom: 2px dashed #999;
+	text-align: left;
+	text-indent: 20px;
+	margin-bottom: 20px;
+}
+
+.preview {
+	width: 100%;
+	height: 180px;
+	border-bottom: 4px solid #ccc;
+}
+
+.featured .panel-body h4 {
+	margin-top: 5px;
+}
+
+.featured .panel-body {
+	padding-top: 5px;
+}
+
+.featured .panel {
+	border: 1px solid grey;
+	background: transparent;
+}
+
+.featured .panel-body h4 a {
+	color: orange;
+}
+
+.eventMeta a {
+	color: grey;
+	font-size: 12px;
+}
+
+div.moreEvent {
+	padding: 20px 0;
+	//border-bottom: 1px dashed grey;
+}
+
+#pageFooter {
+	background: #333;
+	padding-top: 30px;
+	border-top: 2px solid grey;
+	min-height: 200px;
+	color: silver;
+	font-size: 12px;
+}
+
+.footerLinks li {
+	margin-bottom: 4px;
+}
+
+.footerLinks a {
+	color: silver;
+}
+
+.footerLinks a:hover {
+	color: #fff;
+}
+
+.footerLinks #currencyForm select.form-control {
+	width: 160px;
+	margin-right: 14px;
+}
+
+div.copyright {
+	margin-top: 30px;
+}
+
+.sticky {
+	margin-top: 0;
+}
+
+.recent .eventContainer {
+	box-shadow: 2px 2px 1px 1px silver;
+}
+
+.recent div:first-child {
+	position: relative;
+	max-width: 	260px;
+}
+
+.recent h2 {
+	font-size: 14px;
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	margin: 5px 0 !important;
+}
+
+.recent div.eventMeta {
+	
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	padding: 0 12px;
+	margin-bottom: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 10;
+}
+
+.recent div.eventMetaBody a {
+	color: #3c763d !important;
+	font-weight: bold;
+}
+
+img.eventPrev {
+	width: 260px;
+	height: 200px;
+	opacity: 0.9;
+	transition: 0.4s opacity ease;
+}
+
+img.eventPrev:hover {
+	opacity: 1;
+}
+
+/******* Events *****************/
+/*** bootstrap media images ***/
+.allEventsPage .media-object {
+	width: 220px;
+	height: 200px;
+}
+
+.allEventsPage .media-list li.media {
+	background-color: #fff;
+	border: 0.1px solid silver;
+}
+
+.allEventsPage .media-body h3 {
+	margin-top: 10px;
+}
+
+
+.cart {
+	background-color: #ccc;
+	padding: 10px 5px;
+	border: 1px solid #777;
+	border-radius: 5px;
+
+}
+
+/********** .allEventsPage Page ***********/
+.allEventsPage .eventHeaderTitle {
+	color: #777;
+	line-height: 1em;
+	text-align: left;
+}
+
+.allEventsPage .eventHeader {
+	border-bottom: 2px dashed #f0ad4e;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.allEventsPage ol.breadcrumb {
+	margin: 0;
+	font-size: 12px;
+}
+
+.allEventsPage .eventHeader form div.input-group {
+	margin-top: 10px;
+}
+
+.media-body  {
+	position: relative;
+}
+
+.media-footer ul {
+	position: absolute;
+	bottom: 20px;
+}
+
+.media-footer ul li {
+	font-size: 12px;
+	margin-right: 30px;
+	color: #333;
+}
+
+.media-footer ul li span.glyphicon {
+	margin-right: 5px;
+}
+
+.media-list li.media > a {
+	color: inherit;
+	cursor: pointer;
+}
+
+/********* Breadcrumb *******************/
+.breadcrumb {
+	border-radius: 0 0 5px 5px;
+	border: 0.4px solid #ccc;
+	border-top: none;
+}
+
+.breadcrumb > li.active {
+	font-weight: bold;
+}
+
+
+/****** Event Page ****************/
+img.fullEventPhoto {
+	width: 260px;
+	height: 180px;
+	border: 1px solid silver;
+	border-box: -1px 1px 1px #333;
+}
+
+div.eventSummary {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #333;
+}
+
+div.eventSummary li {
+	margin-bottom: 8px;
+	text-indent: 1px
+}
+
+div.eventSummary li span {
+	margin-right: 5px;
+}
+
+div.ticketList .table tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.ticketList .table tr:nth-child(odd) {
+	border-left: 5px solid #4cae4c;
+}
+
+div.ticketList .table tr:nth-child(even) {
+	border-left: 5px solid #f0ad4e;
+}
+
+.row:last-child {
+	margin-bottom: 20px;
+}
+
+select {
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0.1px solid silver;
+	width: 40px;
+}
+
+.seatingPhoto {
+	padding: 10px;
+	background-color: grey;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border: 2px solid #333;
+	border-left: 5px solid #f0ad4e;
+}
+
+.seatingPhoto img {
+	width: 99%;
+	margin: 10px auto;
+	border: 2px solid #ccc;
+}
+
+.noticeMsg {
+	font-weight: bold;
+	color: #555;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #3c763d;
+}
+
+
+/**	Sell Tickets Page - (sell.php) *************/
+#sellSearch .input-group #searchEvent {
+	height: 46px;
+	border-radius: 5px 0 0 5px;
+	font-size: 16px;
+}
+
+#sellSearch .input-group .input-group-btn .btn {
+	height: 46px;
+	font-size: 16px;
+}
+
+.searchHeader {
+	color: #777;
+	line-height: 1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.searchHeader.text-center {
+	margin-bottom: 20px;
+}
+
+.separator {
+	margin-top: 40px;
+	margin-bottom: 60px !important;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.sellMenu {
+	padding: 20px 10px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	margin-bottom: 20px;
+	min-height: 280px;
+}
+
+.sellMenu h2 {
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.sellMenu li {
+	line-height: 2;
+	background-color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+.sellMenu li{
+	
+}
+
+.sellMenuConcert {
+	background-color: #f0ad4e;
+}
+
+.sellMenuConcert a {
+	color: #f0ad4e;
+}
+
+.sellMenuSport {
+	background-color: #5cb85c;
+}
+
+.sellMenuSport a {
+	color: #5cb85c;
+}
+
+.sellMenuFestival {
+	background-color: #d9534f;
+}
+
+.sellMenuFestival a {
+	color: #d9534f;
+}
+
+/*** sell_event.php **************/
+.sellHeader {
+	font-size: 22px;
+	color: #333;
+}
+
+.form-container select, .form-container input[type="text"] {
+	
+}
+
+
+/**** Checkout *****************/
+#checkoutSummary {
+	padding: 20px;
+	border-radius: 5px 5px 0 0;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-top: 4px solid #f0ad4e;
+}
+
+#checkoutSummary .checkoutSummaryTitle {
+	border-bottom: 2px dotted #ccc;
+}
+
+#checkoutSummary .checkoutSummaryTime {
+	border-bottom: 1px solid #ccc;
+}
+
+#checkoutSummary .checkoutSummaryTicket li {
+	margin: 12px 0;
+}
+
+#checkoutSummary .checkoutSummaryTicket li.subtotal {
+	font-size: 16px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+#checkoutSummary .footnote {
+	color: #888;
+	text-align: right;
+	margin-top: 20px;
+}
+
+#guestForm .form-group {
+	margin-bottom: 20px;
+}
+
+#guestForm .checkbox {
+	margin-bottom: 30px;
+}
+
+
+/********* Delivery.php Page *******************/
+#deliveryForm h2 {
+	font-size: 2em;
+	text-indent: 20px;
+}
+
+.form-group-container {
+	background-color: #fff;
+	box-shadow: 1px 2px 1px #dfdfe0,-1px -1px 0 #f2f2f2;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+#deliveryForm h2:first-of-type {
+	margin-top: 0 !important;
+}
+
+#deliveryForm .form-group:last-of-type {
+	margin-top: 20px;
+}
+
+/*********** Buy.php **********/
+#deliverySummary {
+	background-color: #fff;
+	box-shadow: 1px 2px 1px #dfdfe0,-1px -1px 0 #f2f2f2;
+	padding: 40px;
+	border-radius: 2px;
+	border-top: 4px solid #f0ad4e;
+	margin-bottom: 50px;
+}
+
+/*** Nav & tab *********/
+
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+	background-color: grey;
+	color: #ccc;
+	font-weight: bold;
+}
+
+.nav-tabs>li>a:hover {
+	color: #fff;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: #f0ad4e;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tab-content {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+	min-height: 200px;
+	border-top: 2px solid #f0ad4e;
+	padding: 10px 25px;
+}
+
+.sellTicketDetails .form-container {
+	background-color: #fff;
+	box-shadow: 1px 2px 1px #dfdfe0,-1px -1px 0 #f2f2f2;
+	padding: 18px;
+	padding-bottom: 20px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+.sellEventSummary img {
+	width: 100%;
+}
+
+
+/****** Payment.php **************/
+
+#expMonth {
+	width: 50px !important;
+}
+
+#expYear {
+	width: 70px !important;
+}
+
+#cvcNumber {
+	width: 130px !important;
+}
+
+
+#debitForm .form-group:last-of-type {
+	margin-top: 20px;
+}
+
+#payment-errors {
+	margin-left: 150px;
+}
+
+#payment-errors li {
+	list-style-type: square;
+}
+
+
+/******* About.php and Contact.php *****************/
+.linkMenu {
+	padding: 20px 20px 30px 20px;
+	border-radius: 5px 5px 0 0;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-top: 4px solid #f0ad4e;
+}
+
+.linkMenu h4 {
+	display: inline-block;
+	color: #888;
+	border-bottom: 2px dotted #888;
+	text-align: center;
+	padding-bottom: 8px;
+	margin-left: 10px;
+}
+
+.linkMenu li {
+	list-style-type: square;
+}
+
+.contact .linkMenu li {
+	list-style-type: none !important;
+	margin-bottom: 12px;
+	text-indent: 10px;
+}
+
+.contact .linkMenu li a {
+	color: #333;
+}
+
+.contact .linkMenu li a:hover {
+	color: #999;
+	cursor: pointer;
+}
+
+.companyImg img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contact-container {
+	height: 280px;
+	margin-bottom: 30px;
+	transition: .6s all ease;
+}
+
+.contact-container:hover {
+	color: #fff;
+	background-color: #f0ad4e;
+}
+
+.contact-container h4.h1 {
+	margin-bottom: 60px;
+	margin-top: 30px;
+	font-size: 48px;
+}
+
+.contact-container a {
+	color: inherit !important;
+}
+
+/********** Cart.php *******************/
+.cartTable {
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	empty-cells: show;
+}
+
+.cartTable thead tr  th {
+	border: none;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-indent: 20px;
+	color: #f0ad4e;
+}
+
+.cartTable td{
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-spacing: 20px 0 !important;
+	text-indent: 20px;
+	background-color: #f0ad4e;
+	color: #fff;
+	font-weight: bold;
+}
+
+.cartTable tbody tr {
+	background-color: transparent;
+	border-left: 4px solid #f0ad4e;
+}
+
+.cartTable .actionRow {
+	background: transparent !important;
+	border: none;
+	box-shadow: none;
+	text-align: left !important;
+	text-indent: 5px;
+}
+
+.cartTable .actionRow span.fa {
+	padding: 0;
+	font-size: 20px;
+}
+
+.cartTable .actionRow span.fa:hover {
+	color: #F81B46;
+}
+
+.cartTable tfoot td {
+	padding: 12px !important;
+	font-weight: bold;
+	background-color: #fff;
+	color: #333;
+}
+
+
+/*********** Login.php and Register.php **************/
+.login-form-container {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+
+/********** Account.php & password.php ****************/
+
+
+.add-admin-container {
+	margin-bottom: 20px !important;
+}
+
+
+.account-detail-container {
+	padding-bottom: 30px;
+}
+
+.account-detail-container > p:last-of-type {
+	margin-top: 20px;
+}
+
+#accountSidebar {
+	padding: 2px;
+	width: 290px;
+	
+}
+
+#accountSidebar .form-group-container {
+	padding: 5px;
+	background: #fff;
+
+}
+
+#accountSidebar ul {
+	border: 0.2px solid #efefef;
+	padding: 30px 0 40px 0;
+	border-radius: 5px;
+	min-height: 340px;
+
+
+}
+
+#accountSidebar li {
+	font-weight: bold;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #efefef;
+	//border-top: 1px solid #efefef;
+	padding: 8px 10px;
+}
+
+#accountSidebar li a {
+	color: #f0ad4e;
+
+}
+
+#accountSidebar li a:hover {
+	color: #5cb85c;
+}
+
+
+/************ All Messages.php ***********/
+
+.messages-table-container {
+	min-height: 360px;
+}
+
+
+.messages-table-container table thead {
+	background-color: #f0ad4e;
+	color: #fff;
+
+
+}
+
+.messages-table-container table thead  th{
+	padding: 14px 5px 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#pageNav ul.nav {
+		margin-left: 0;
+	}
+
+	.navbar-default {
+		min-height: 60px;
+	}
+
+	#primaryLinks {
+		position: relative;
+		display: block;
+		float: left;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	.navbar-brand {
+		font-size: 16px;
+	}
+
+	.shortcuts {
+		display: block !important;
+		float: left;
+		clear:both;
+		margin-top: 5px;
+		margin-left: 140px !important;
+	}
+
+	.shortcuts li {
+		display: inline;
+		float: left;
+	}
+
+	.shortcuts .hiddenLabel {
+		display: inline;
+		font-size: 13px;
+	}
+
+
+	ul.nav li {
+		text-align: center;
+	}
+
+	.pageBanner {
+		padding: 60px 0;
+	}
+}

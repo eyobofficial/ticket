@@ -1,0 +1,225 @@
+/***************************************************
+* Main Style: Photo Gallery Website
+* Author: Eyob Tariku
+* Company Name: Zigzag Studio
+* Written Date: 2016 April 01
+* Version: 1.0
+* Last Updated: -
+* Description: 
+******************/
+
+.message {
+	color: deeppink;
+	font-size: 1.2em;
+	font-family: Courier, monospace;
+	font-weight: bold;
+	line-height: 2;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+/* #pageNav ul.nav {
+	margin-left: 280px;
+} */
+
+body {
+	position: relative;
+}
+
+h1#pageTitle > a {
+	color: #f0ad4e;
+}
+
+.navbar-default {
+	width: 100%;
+	min-height: 80px;
+	border-radius: 0;
+	margin-top: 0.8em;
+	margin-bottom: 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	background: #fff;
+	z-index: 999;
+}
+
+ul.navbar-nav {
+	padding-top: 10px;
+}
+
+ul.navbar-nav li a {
+	font-weight: bold;
+}
+
+ul.navbar-nav li.active a {
+	background: transparent !important;
+	border-bottom: 2px solid orange;
+	color: orange !important;
+}
+
+ul.navbar-nav li.active {
+	background: transparent;
+}
+
+#topNav a {
+	color: #888 !important;
+	font-size: 12px;
+}
+
+#misc {
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+#logoText h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	line-height: 0.9em;
+}
+
+#pageHeader h2.small {
+	font-size: 14px;
+	color: #888;
+	text-decoration: overline;
+	margin-top: 0 !important;	
+	padding-top: 0;
+}
+
+.pageBanner {
+	padding: 150px 0 160px;
+	background-image: url('../images/banner.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 4px solid #ccc;
+}
+
+.pageBanner input[type="search"] {
+	height: 46px;
+	font-size: 16px;
+}
+
+.pageBanner span.input-group-btn .btn {
+	padding: 12px 16px;
+}
+
+.eventTypes {
+	color: #777;
+	line-height: 2em;
+	border-bottom: 2px dashed #999;
+	text-align: left;
+	text-indent: 20px;
+	margin-bottom: 20px;
+}
+
+.preview {
+	width: 100%;
+	height: 180px;
+	border-bottom: 4px solid #ccc;
+}
+
+.featured .panel-body h4 {
+	margin-top: 5px;
+}
+
+.featured .panel-body {
+	padding-top: 5px;
+}
+
+.featured .panel {
+	border: 1px solid grey;
+	background: transparent;
+}
+
+.featured .panel-body h4 a {
+	color: orange;
+}
+
+.eventMeta a {
+	color: grey;
+	font-size: 12px;
+}
+
+div.moreEvent {
+	padding: 20px 0;
+	//border-bottom: 1px dashed grey;
+}
+
+#pageFooter {
+	background: #333;
+	padding-top: 30px;
+	border-top: 2px solid grey;
+	min-height: 200px;
+	color: silver;
+	font-size: 12px;
+}
+
+section.copyright {
+	margin-top: 30px;
+}
+
+.sticky {
+	margin-top: 0;
+}
+
+section.recent div:first-child {
+	position: relative;
+	max-width: 	260px;
+}
+
+section.recent h2 {
+	font-size: 14px;
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	margin: 5px 0 !important;
+}
+
+section.recent div.eventMeta {
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	padding: 0 12px;
+	margin-bottom: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 10;
+}
+
+img.eventPrev {
+	width: 260px;
+	height: 200px;
+	opacity: 0.9;
+	transition: 0.4s opacity ease;
+}
+
+img.eventPrev:hover {
+	opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+	#pageNav ul.nav {
+		margin-left: 0;
+	}
+
+	#pageNav .navbar-toggle {
+		position: absolute !important;
+		top: -70px;
+		right: 0;
+	}
+
+	.navbar-default {
+		background: transparent;
+		border:none;
+		min-height: 0;
+	}
+
+	ul.nav li {
+		text-align: center;
+	}
+
+	.pageBanner {
+		padding: 60px 0;
+	}
+}

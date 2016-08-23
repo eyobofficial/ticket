@@ -1,0 +1,500 @@
+/*******************************************************************
+* Page Style for Admin Page
+*
+*/
+
+.btn-warning {
+	background-color: #BC46B2 !important;
+}
+
+
+.shade {
+	color: #888 !important;
+}
+
+
+.shade-link {
+	/** color: #555; **/
+}
+
+.shade-link:hover {
+	color: #BC46B2;
+}
+
+.sm {
+	font-size: 12px;
+}
+
+.xs {
+	font-size: 10px;
+}
+
+head-sm {
+	font-size: 18px;
+}
+
+i {
+	font-style: italic !important;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.bolder {
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.em {
+	font-style: italic;
+}
+
+.notSeen th, .notSeen td {
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+
+.mainTable {
+	background-color: #fff;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+
+.shortInputs {
+	width: 65px !important;
+}
+
+.borderless tr td {
+	border: none !important;
+	padding: 0.8em 0 !important;
+}
+
+.form-group.time {
+	margin-left: 20px;
+}
+
+.errorLogin {
+	font-weight: bold;
+	color: #555;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #d9534f;
+}
+body {
+	background-color: #23282d;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#adminHeader {
+	border-bottom: 2px solid #BC46B2;
+}
+
+#adminHeader h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 0;
+}
+
+#adminHeader h1>a {
+	color: #fafafa;
+	text-decoration: none;
+}
+
+#adminHeader .topNotifications a {
+	color: #ccc;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#topIcons {
+	
+}
+
+#adminHeader .topNotifications a:hover {
+	color: #fff;
+}
+
+#adminHeader p.topNotifications {
+	margin-top: 6px;
+}
+
+#adminNotification {
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+#adminNav {
+	background-color: #23282d;
+}
+
+#adminNav header h1{
+	color: #efefef !important;
+	margin-bottom: 55px;
+}
+
+#adminNav header h1 > a {
+	color: #efefef !important;
+}
+
+#adminNav header h1 > a:hover {
+	color: silver !important;
+}
+
+#adminNav header p:last-of-type {
+	margin-bottom: 30px;
+}
+
+#adminNav header p {
+	color: silver;
+	text-indent: 10px;
+}
+
+#adminNav header p a {
+	color: silver;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#adminNav header p a:hover {
+	color: #fff;
+}
+
+#adminNav nav > ul {
+	width: 90%;
+}
+
+#adminNav li {
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+#adminNav li > a {
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px 0 0 5px;
+	background-color:  #BC46B2 ;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#adminNav li > a:hover {
+	background-color: #FF31E5;
+}
+
+#adminNav li.active > a {
+	background-color: #efefef;
+	color: #000;
+}
+
+#adminMain {
+	background-color: #fafafa;
+	color: #000;
+	min-height: 740px;
+}
+
+#adminFooter {
+	padding: 10px 0;
+	border-top: 2px solid #BC46B2;
+	color: silver;
+	background-color: #23282d;
+}
+
+#adminFooter {
+	font-weight: normal !important;
+	font-size: 13px;
+	text-align: center;
+}
+
+/******* Page all_events.php **************/
+.table {
+	color: #000;
+}
+
+.table thead {
+	background-color: #333;
+	border-radius: 20px 20px 0 0 !important;
+}
+
+.table thead tr th {
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+.table tbody td.titleCol {
+	font-weight: bold;
+}
+
+.table tbody td.titleCol p.actions {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	font-size: 12px;
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+#adminMain .table {
+	margin-top: 5px;
+}
+
+.actionTitle {
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #BC46B2;
+	margin-bottom: 30px;
+}
+
+.noticeMsg {
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #d9534f;
+	margin-bottom: 30px;
+	margin-top: 1em;
+	font-size: 18px;
+}
+
+
+#eventSummary .form-group {
+	margin-top: 10px !important;
+}
+
+input[name="photo"] {
+	padding: 10px;
+}
+
+/****** add_event.php and edit_event.php Pages *********/
+img.uploadedPic {
+	width: 260px;
+	height: 260px;
+}
+
+
+div.errorMsg {
+	font-weight: bold;
+	color: #555;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #d9534f;
+}
+
+.errorMsg ul {
+	margin-left: 15px;
+}
+
+.errorMsg li {
+	list-style-type: square;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.errorMsg li:after, .errorMsg li:before {
+	content: "'";
+}
+
+.errorMsg p span.glyphicon {
+	font-size: 24px;
+	margin-right: 5px;
+	font-weight: normal;
+}
+
+
+span.fa-external-link {
+	font-size: 10px;
+}
+
+ul.secondaryNav li {
+	font-family: bold;
+	font-size: 14px;
+	text-align: right;
+	padding: 0 !important;
+	margin: 10px 5px 10px 0 !important;
+	list-style: none;
+	
+}
+
+ul.secondaryNav li a {
+	color: #efefef !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: transparent !important;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+ul.secondaryNav li a:hover {
+	font-weight: bolder;
+	color: #fff !important;
+}
+
+ul.secondaryNav li.active a{
+	color: #5cb85c !important;
+}
+
+#sideActions {
+	padding-top: 80px !important;
+}
+
+.actionSection {
+	border-bottom: 0.1px dotted #ccc;
+	padding: 10px;
+}
+
+.side-action-container {
+	background-color: #fff;
+	color: #333;
+	box-shadow: 1px 2px 1px #dfdfe0,-1px -1px 0 #f2f2f2;
+	border-radius: 5px;
+}
+
+.side-action-container label {
+	font-weight: normal !important;
+	margin-left: 10px;
+	font-size: 13px;
+}
+
+.side-action-container label span {
+	margin-left: 22px;
+	font-weight: normal !important;
+}
+
+.side-action-container input[type="radio"] {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.side-action-container h4 {
+	padding: 15px 20px 5px;
+	border-bottom: 2px solid silver;
+	background-color: #333;
+	color: #efefef;
+	border-radius: 5px 5px 0 0;
+	font-size: 15px;
+}
+
+.actionSectionFooter {
+	background-color: #333;
+	padding: 8px 20px;
+}
+
+.event-photo-container {
+	margin-bottom: 50px;
+	background-color: #fff;
+	color: #333;
+	box-shadow: 1px 2px 1px #dfdfe0,-1px -1px 0 #f2f2f2;
+	border-radius: 5px;
+}
+
+.event-photo-container h4 {
+	font-size: 15px;
+	padding: 8px 20px 5px;
+	border-bottom: 2px solid silver;
+	background-color: #333;
+	color: #efefef;
+	border-radius: 5px 5px 0 0;
+
+}
+
+.event-photo-container > div {
+	padding: 20px 15px 15px;
+}
+
+.event-photo-container input[type="file"] {
+	padding: 0;
+	margin: 0;
+	width: 60%;
+}
+
+
+
+
+/********* Admin_login.php *****************/
+#adminLogin .login-form-container {
+	margin-top: 160px;
+	border-radius: 10px;
+}
+
+#adminLogin .login-form-container li {
+	list-style-type: square;
+	padding-top: 5px;
+}
+
+.form-group-container {
+	margin-top: 10px;
+	margin-bottom: 180px;
+	background-color: #fff;
+	color: #333;
+	box-shadow: 1px 2px 1px #dfdfe0,-1px -1px 0 #f2f2f2;
+	padding: 10px 20px 20px;
+	border-radius: 5px;
+}
+
+
+.add-admin-container {
+	margin-bottom: 20px !important;
+}
+
+
+/******* currency.php ***********/
+.currencyLists {
+	margin: 30px 0 0 120px;
+}
+
+.currencyLists input {
+	text-align: right;
+}
+
+
+/********* Dashboard ****************/
+section.media img.media-object {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+section.media {
+	border-radius: 10px;
+	padding: 25px 10px 10px 20px;
+	min-height: 220px;
+	margin-left: 20px;
+	border: 0.01px solid #BC46B2;;
+}
+
+section.media .media-body a {
+	marging-top: 30px;
+}
+
+.media-body {
+	margin-left: 1em !important;
+}
+
+.media-heading {
+	margin-bottom: 2em;
+	margin-left: 1.8em;
+}
+
+
+.media-options {
+	margin-left: 2.5em;
+}
+
+.media-options li {
+	margin-bottom: 1em;
+}
+
+a.heading-link {
+	color: #BC46B2;
+}

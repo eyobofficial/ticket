@@ -1,0 +1,50 @@
+body {
+	background-color: #efefef;
+}
+
+nav.tempNav  {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: 2px dashed #fff;
+}
+
+section.cart {
+	background-color: #fff;
+	padding: 10px 5px;
+	border: 0.5px solid #ccc;
+	border-radius: 0 !important;
+}
+
+section.cart #cartTitle {
+	padding-bottom: 10px;
+	color: orange;
+	border-bottom: 1px solid orange;
+}
+
+section.cart div.cartItem {
+	padding-bottom: 20px;
+	border-bottom: 1px solid orange;
+}
+
+
+section.cart div.cartItem:last-of-type {
+	border-bottom: none;
+}
+
+section .label-danger {
+	font-size: 12px;
+}
+
+section.frontBox {
+	padding: 20px 10px;
+	background: #fff;
+	border: 0.5px solid #ccc;
+}
+
+.actionBox {
+	text-align: center;
+	margin-top: 10px;
+	padding: 20px 10px;
+	background: #fff;
+	border: 0.5px solid #ccc;
+}
