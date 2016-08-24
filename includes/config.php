@@ -14,7 +14,7 @@
 
 
 	// Functions Path
-	defined("FUNC_PATH") ? null : define("FUNC_PATH", LIB_PATH . "functions" . DS);
+	defined("FUNC_PATH") ? null : define("FUNC_PATH", LIB_PATH . "helpers" . DS);
 
 
 	// Config Path
